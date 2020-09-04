@@ -6,6 +6,6 @@ elsif array.length == 2
 elsif array.length == 3
   return array.split(",") && array.last << ("and")
 else array.length > 3
-  return 
+  return
 end
 end
