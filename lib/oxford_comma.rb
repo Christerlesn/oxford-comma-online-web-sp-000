@@ -3,6 +3,9 @@ if array.length == 1
   return array.join
 elsif array.length == 2
   return array.split("and")
-else
+elsif array.length == 3
+  return array.split(",") && array.last << ("and")
+else array.length > 3
+  return 
 end
 end
